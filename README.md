@@ -26,6 +26,8 @@ Web scrapper in Ruby as a capstone project from Microverse
 
 ## 🧐 About <a name = "about"></a>
 <h3 align="center"> This is an assigment for Microverse's Ruby course. The goal was to create a web scrapper.. The web site to scrap was Study in Denmark, <a href="https://studyindenmark.dk/portal">program list</a>.</h3>.
+This scrapper is basically from the search field from the website. With the scrapper we can retrive the course information desired and use how we pleased without checking the website. This website was used, because I would like to create my version of this website, but more focus on student experiences and info for a specific group.
+
 The software wait for the user to type a search keyword. 
 The user can leave the search keyword blank, if so return all the courses.
 The user can type a search keyword, returning all the courses with that keyword.
