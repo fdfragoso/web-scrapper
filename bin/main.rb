@@ -16,7 +16,7 @@ university_programs_results.each do |programs|
   p "   ECTS: #{programs[:ects]}"
 
   next unless (i % 5).zero?
-  
+
   p 'Type E to exit the program. Type any other key to view the next 5 items.'
 
   system 'stty cbreak'
