@@ -15,15 +15,13 @@ university_programs_results.each do |programs|
   p "   Institution: #{programs[:institution]}"
   p "   ECTS: #{programs[:ects]}"
 
-  if (i%5).zero?
-    p 'Type E to exit the program. Type any other key to view the next 5 items.'
-    
-    system 'stty cbreak'
-    q = $stdin.sysread 1
-    if q == "e"
-      break
-    end
-    system 'stty cooked'
+  next unless (i % 5).zero?
+  
+  p 'Type E to exit the program. Type any other key to view the next 5 items.'
 
-  end
+  system 'stty cbreak'
+  q = $stdin.sysread 1
+  break if q == 'e'
+
+  system 'stty cooked'
 end
