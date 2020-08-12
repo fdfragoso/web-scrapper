@@ -36,6 +36,8 @@ If the user dont use the byebug tool, the return list is show on the console.
 The list is show 5 by 5 results.
 Pressing any key the user can see the next 5 results.
 
+For search suggestions try games or computer science or any academic field.
+
 ---
 
 ## 🔧 Built with<a name = "built_using"></a>
