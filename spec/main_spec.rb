@@ -1,7 +1,7 @@
 require_relative '../lib/scrapper.rb'
 
-RSPec.describe UniversityPrograms do
-  obj_uni = UniversityPrograms.new
+RSpec.describe UniversityPrograms do
+  obj_uni = UniversityPrograms.new('games')
 
   describe '#parsing' do
     it 'returns the university programs' do
