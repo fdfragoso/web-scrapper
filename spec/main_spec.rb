@@ -1,4 +1,5 @@
 require_relative '../lib/scrapper.rb'
+require 'nokogiri'
 
 RSpec.describe UniversityPrograms do
   obj_uni = UniversityPrograms.new('games')
