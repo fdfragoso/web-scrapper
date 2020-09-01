@@ -60,6 +60,14 @@ For search suggestions try games or computer science or any academic field.
 - If you dont want to inspect any byebug just type continue to keep running the program.
 
 ```
+
+### 🛠 Testing <a name = "testing"></a>
+
+```
+- Run rspec in the terminal of your root directory to run the described tests
+
+```
+
 ## ✒️  Autor <a name = "author"></a>
 
 👤 **Felipe Dacal Fragoso**

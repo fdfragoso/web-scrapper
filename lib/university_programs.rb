@@ -12,7 +12,6 @@ class UniversityPrograms
     parsed_page = Nokogiri::HTML(unparsed_page)
     unis = parsed_page.css('tbody').css('tr')
     hash = create_hash(unis)
-    hash
   end
 
   private
