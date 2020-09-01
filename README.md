@@ -29,16 +29,6 @@ Web scrapper in Ruby as a capstone project from Microverse
 <h3 align="center"> This is an assigment for Microverse's Ruby course. The goal was to create a web scrapper.. The web site to scrap was Study in Denmark, <a href="https://studyindenmark.dk/portal">program list</a>.</h3>.
 This scrapper is basically from the search field from the website. With the scrapper we can retrive the course information desired and use how we pleased without checking the website. This website was used, because I would like to create my version of this website, but more focus on student experiences and info for a specific group.
 
-The software wait for the user to type a search keyword. 
-The user can leave the search keyword blank, if so return all the courses.
-The user can type a search keyword, returning all the courses with that keyword.
-The byebug pack was used so after typing the search keyword the user can inspect what was returned using ruby and nokogiri commands.
-If the user dont use the byebug tool, the return list is show on the console. 
-The list is show 5 by 5 results.
-Pressing any key the user can see the next 5 results.
-
-For search suggestions try games or computer science or any academic field.
-
 ---
 
 ## 🔧 Built with<a name = "built_using"></a>
@@ -51,6 +41,21 @@ For search suggestions try games or computer science or any academic field.
 ## 📺 Video Presentation <a name = "presentation"></a>
 
 [Video Presentation](https://www.loom.com/share/bf890ae9e20b446aa42937789c0e2273)
+
+### 🛠 Usage <a name = "usage"></a>
+
+```
+The software wait for the user to type a search keyword. 
+The user can leave the search keyword blank, if so return all the courses.
+The user can type a search keyword, returning all the courses with that keyword.
+The byebug pack was used so after typing the search keyword the user can inspect what was returned using ruby and nokogiri commands.
+If the user dont use the byebug tool, the return list is show on the console. 
+The list is show 5 by 5 results.
+Pressing any key the user can see the next 5 results.
+
+For search suggestions try games or computer science or any academic field.
+
+```
 
 ### 🛠 Installing <a name = "installing"></a>
 
