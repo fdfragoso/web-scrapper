@@ -15,6 +15,8 @@ class UniversityPrograms
     hash
   end
 
+  private 
+
   def create_hash(obj)
     obj.map do |unis|
       {

@@ -1,4 +1,4 @@
-require_relative '../lib/scrapper.rb'
+require_relative '../lib/university_programs.rb'
 require 'io/console'
 
 puts 'Type the search keyword: '
