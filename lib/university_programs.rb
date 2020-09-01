@@ -11,7 +11,7 @@ class UniversityPrograms
     unparsed_page = HTTParty.get(@url)
     parsed_page = Nokogiri::HTML(unparsed_page)
     unis = parsed_page.css('tbody').css('tr')
-    hash = create_hash(unis)
+    create_hash(unis)
   end
 
   private
