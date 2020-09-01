@@ -23,6 +23,7 @@ Web scrapper in Ruby as a capstone project from Microverse
 <a href="#authors">Author</a>
 </p>
 
+![screenshot](./img/run.png)
 
 ## 🧐 About <a name = "about"></a>
 <h3 align="center"> This is an assigment for Microverse's Ruby course. The goal was to create a web scrapper.. The web site to scrap was Study in Denmark, <a href="https://studyindenmark.dk/portal">program list</a>.</h3>.
